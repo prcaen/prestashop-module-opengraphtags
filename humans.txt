@@ -1,0 +1,9 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* Author */
+  Pierrick CAEN
+  Site: www.pierrickcaen.fr
+  Twitter: nimbus147
+  Location: Paris - FRANCE
