@@ -19,7 +19,7 @@ class Opengraphtags extends Module
 		$this->displayName = $this->l('Open Graph tags');
 		$this->description = $this->l('Manage your Open Graph tags');
 
-		$this->_tplFile = _PS_MODULE_DIR_ . $this->name . '/backend/tpl/' . $this->name . '.backend.configure.tpl';
+		$this->_tplFile = _PS_MODULE_DIR_ . $this->name . '/backend/tpl/' . $this->name . '_backend_configure.tpl';
 		$this->_imgPath = _PS_MODULE_DIR_ . $this->name . '/img/';
 
 		$this->_abbreviation = 'OGT';
@@ -366,6 +366,11 @@ class Opengraphtags extends Module
 		}
 
 		$smarty->assign('simpleXML_loaded', extension_loaded('SimpleXML'));
+		$smarty->assign('simpleXML_needed', $this->l('This module need the SimpleXML extension'));
+		$smarty->assign('settings', $this->l('Settings'));
+		$smarty->assign('enabled', $this->l('Enabled'));
+		$smarty->assign('disabled', $this->l('Disabled'));
+		$smarty->assign('save', $this->l('Save'));
 		$smarty->assign('action', Tools::safeOutput($_SERVER['REQUEST_URI']));
 		$smarty->assign('display_name', $this->displayName);
 		$smarty->assign('module_name', strtolower($this->name));

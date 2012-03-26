@@ -34,10 +34,10 @@ $_MODULE['<{opengraphtags}prestashop>opengraphtags_f94a18cfcd55b0d1f9e52d2980309
 $_MODULE['<{opengraphtags}prestashop>opengraphtags_513fd50d6bad714fbd153005df037cc7'] = 'Une liste séparée par des virgules de chaque application Facebook';
 $_MODULE['<{opengraphtags}prestashop>opengraphtags_e88df4e3414685942f6edb14561ce521'] = 'Utiliser les balises Open Graph par défaut sur la page : ';
 $_MODULE['<{opengraphtags}prestashop>opengraphtags_d1457b72c3fb323a2671125aef3eab5d'] = '?';
+$_MODULE['<{opengraphtags}prestashop>opengraphtags_5f7b4e0164d27bf9d5b5f990c6d14330'] = 'Ce module à besoin de l\'extension PHP SimpleXML';
+$_MODULE['<{opengraphtags}prestashop>opengraphtags_f4f70727dc34561dfde1a3c529b6205c'] = 'Paramètres';
+$_MODULE['<{opengraphtags}prestashop>opengraphtags_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activer';
+$_MODULE['<{opengraphtags}prestashop>opengraphtags_b9f5c797ebbf55adccdd8539a65a0241'] = 'Désactiver';
+$_MODULE['<{opengraphtags}prestashop>opengraphtags_c9cc8cce247e49bae79f15173ce97354'] = 'Enregistrer';
 $_MODULE['<{opengraphtags}prestashop>opengraphtags_f4d1ea475eaa85102e2b4e6d95da84bd'] = 'Confirmation';
 $_MODULE['<{opengraphtags}prestashop>opengraphtags_c888438d14855d7d96a2724ee9c306bd'] = 'Mise à jour effectuée';
-$_MODULE['<{opengraphtags}prestashop>opengraphtags.backend.configure_5f7b4e0164d27bf9d5b5f990c6d14330'] = 'Ce module à besoin de l\'extension SimpleXML';
-$_MODULE['<{opengraphtags}prestashop>opengraphtags.backend.configure_f4f70727dc34561dfde1a3c529b6205c'] = 'Paramètres';
-$_MODULE['<{opengraphtags}prestashop>opengraphtags.backend.configure_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activé';
-$_MODULE['<{opengraphtags}prestashop>opengraphtags.backend.configure_b9f5c797ebbf55adccdd8539a65a0241'] = 'Désactivé';
-$_MODULE['<{opengraphtags}prestashop>opengraphtags.backend.configure_c9cc8cce247e49bae79f15173ce97354'] = 'Enregistrer';
