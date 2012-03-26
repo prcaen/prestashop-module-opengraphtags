@@ -509,10 +509,14 @@ class Opengraphtags extends Module
 				}
 			}
 		}
-		$metas['og:url'] = array(
-			'property' => 'og:url',
-			'content' => $link
-		);
+
+		if(is_string($link))
+		{
+			$metas['og:url'] = array(
+				'property' => 'og:url',
+				'content' => $link
+			);
+		}
 
 		$vars = array(
 			'metas' 						=> $metas,
